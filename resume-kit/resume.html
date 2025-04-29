@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Goud Kodipyaka - Resume</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+        body {
+            height: fit-content;
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-justify-content: center;
+            justify-content: center;
+
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.6;
+            padding: 24px;
+            /* background-color: #f4f4f4; */
+        }
+
+        .container {
+            width: fit-content;
+        }
+
+        a {
+            color: #2676ca;
+            text-decoration: none;
+        }
+
+        .skill-section {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 16px;
+        }
+
+        .skill-section .title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #365270;
+            margin-bottom: 8px;
+        }
+
+        .skill-section .content {
+            font-size: 14px;
+        }
+
+        .skill-section .content .skill-items {
+            font-weight: bold;
+            margin-left: 4px;
+        }
+
+        .problem-solving {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 16px;
+        }
+
+        .problem-solving .title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #365270;
+            margin-bottom: 8px;
+        }
+
+        .problem-solving .content {
+            font-size: 14px;
+        }
+
+        .problem-solving .github-link {
+            font-size: 14px;
+        }
+
+        .reference-section {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+        }
+
+        .reference-section .title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #365270;
+            margin-bottom: 8px;
+        }
+
+        .reference-section .content {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+
+            font-size: 14px;
+            margin-left: 8px;
+            margin-bottom: 8px;
+            /* Alternative for gap */
+        }
+
+        .reference-section .content .name {
+            font-weight: bold;
+            margin-bottom: 4px;
+            /* Alternative for gap */
+        }
+
+        .education-section {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 16px;
+        }
+
+        .education-section .title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #365270;
+            margin-bottom: 8px;
+        }
+
+        .education-section .content {
+            margin-left: 8px;
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+
+            font-size: 14px;
+        }
+
+        .education-section .content .university {
+            font-weight: bold;
+            margin-bottom: 4px;
+        }
+
+
+        .project-section {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            margin-bottom: 16px;
+        }
+
+        .project-section .title {
+            font-weight: bold;
+            font-size: 20px;
+            color: #365270;
+            margin-bottom: 8px;
+        }
+
+        .project-section .content {
+            margin-left: 8px;
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+
+            font-size: 14px;
+        }
+
+        .project-section .content .item {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+        }
+
+        .project-section .content .item:not(:last-child) {
+            margin-bottom: 8px;
+        }
+
+        .project-section .content .item .name {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 6px;
+            /* Alternative for gap */
+        }
+
+        .project-section .content .item .description {
+            font-size: 14px;
+        }
+
+        .experience-section {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+        }
+
+        .experience-section .title {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 6px;
+            color: #365270;
+        }
+
+        .experience-section .item {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+
+            margin-left: 4px;
+        }
+
+        .experience-section .item:not(:last-child) {
+            margin-bottom: 12px;
+        }
+
+        .experience-section .item .designation {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .experience-section .item .sub-title {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .experience-section .item .company-details {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .experience-section .item .sub-title .company {
+            font-weight: bold;
+            color: #3273b8;
+        }
+
+        .experience-section .item .responsibilities {
+            font-size: 14px;
+        }
+
+        .experience-section .item .responsibilities .responsibilities-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+
+        .bold-text {
+            font-weight: bold;
+        }
+
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        .header {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+
+            -webkit-align-items: center;
+            align-items: center;
+
+            margin-bottom: 24px;
+        }
+
+        .header .left-side {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-align-items: center;
+            align-items: center;
+            width: 45%;
+        }
+
+        .header .left-side img {
+            margin-right: 16px;
+        }
+
+        .header .right-side {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            width: 50%;
+        }
+
+        .content {
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+        }
+
+        .content .left-part {
+            width: 40%;
+            display: -webkit-flex;
+            display: flex;
+
+            -webkit-flex-direction: column;
+            flex-direction: column;
+        }
+
+        .content .right-part {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="left-side">
+                <div>
+                    <img src="https://nahk994.github.io/profile.jpg" alt="Vijay Goud Kodipyaka" style="border-radius: 50%;"
+                        width="120" height="120">
+                </div>
+                <div>
+                    <div style="font-weight: bold; font-size: 2rem;">Vijay Goud Kodipyaka</div>
+                    <div>Software Engineer</div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div><span class="bold-text">Phone:</span> +8801676498001</div>
+                <div><span class="bold-text">Email:</span> <a target="_blank"
+                        href="mailto:shomikhan043@gmail.com">shomikhan043@gmail.com</a></div>
+                <div><span class="bold-text">GitHub:</span> <a target="_blank"
+                        href="https://github.com/shomi-khan">github.com/shomi-khan</a></div>
+                <div><span class="bold-text">LinkedIn:</span> <a target="_blank"
+                        href="https://www.linkedin.com/in/shomikhan">linkedin.com/in/shomikhan</a></div>
+                <div><span class="bold-text">Portfolio:</span> <a target="_blank"
+                        href="https://shomi-khan.github.io">shomi-khan.github.io</a></div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="left-part">
+                <div class="skill-section">
+                    <div class="title">
+                        Skills
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>Programming Languages:<span class="skill-items">Python3, Go, TypeScript, C++,
+                                    Bash</span></li>
+                            <li>Database:<span class="skill-items">PostgreSQL</span></li>
+                            <li>Backend Frameworks:<span class="skill-items">Django, Gin, FastAPI</span></li>
+                            <li>Frontend Frameworks:<span class="skill-items">React, Next.js, Angular</span></li>
+                            <li>Development Tools:<span class="skill-items">Git, TailwindCSS, Docker, Kafka, Nginx,
+                                    Redis</span></li>
+                            <li>Async Task Processing:<span class="skill-items">Celery, Celery Beat</span></li>
+                            <li>Cloud Hosting:<span class="skill-items">AWS</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="problem-solving">
+                    <div class="title">
+                        Solved Programming problems
+                    </div>
+                    <div class="content">
+                        <ul>
+                            <li>hackerrank ( Problem Solving: Gold, Python: Gold )
+                                profile: <a target="_blank"
+                                    href="http://hackerrank.com/ShomiKhan">hackerrank.com/ShomiKhan</a></li>
+                            <li>UVA - Solved Problems: 402
+                                profile: <a target="_blank"
+                                    href="https://uhunt.onlinejudge.org/id/135776">uhunt.onlinejudge.org/id/135776</a>
+                            </li>
+                            <li>leetcode - Solved Problems: 81
+                                profile: <a target="_blank"
+                                    href="https://leetcode.com/u/nahK994/">leetcode.com/nahK994</a></li>
+                            <li>lightoj - Solved Problems: 129
+                                user id: 11127</li>
+                        </ul>
+                    </div>
+                    <div class="github-link">Github link: <a target="_blank"
+                            href="https://github.com/shomi-khan/V">github.com/shomi-khan/V.git</a></div>
+                </div>
+
+                <div class="project-section">
+                    <div class="title">Personal Projects</div>
+                    <div class="content">
+                        <div class="item">
+                            <div class="name">TinyLetters - Go | Gin | PostgreSQL | Docker | gRPC | REST API | Kafka
+                            </div>
+                            <div class="description">
+                                <div>TinyLetters is a microservices-based scalable newsletter inspired by Medium.</div>
+                                <div>Github URL: <a target="_blank"
+                                        href="https://github.com/shomi-khan/tiny-letters">github.com/shomi-khan/tiny-letters</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="name">ExamHall - Python3 | Django | Angular | Redis | PostgreSQL | Celery |
+                                Docker
+                            </div>
+                            <div class="description">
+                                <div>An online exam platform where student can participate in MCQ exams.</div>
+                                <div>Project URL: <a target="_blank"
+                                        href="https://github.com/shomi-khan/examhall">github.com/shomi-khan/examhall</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="name">TinyCache - Go
+                            </div>
+                            <div class="description">
+                                <div>A lightweight, fast, in-progress Redis-like caching system that is open for
+                                    contributions.</div>
+                                <div>Github URL: <a target="_blank"
+                                        href="https://github.com/shomi-khan/tiny-cache">github.com/shomi-khan/tiny-cache</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-section">
+                    <div class="title">
+                        Education
+                    </div>
+                    <div class="content">
+                        <div class="university">
+                            Shahjalal University of Science & Technology
+                        </div>
+                        <div>BSc. in Electrical & Electronic Engineering</div>
+                        <div>2nd Major in Computer Science & Engineering</div>
+                    </div>
+                </div>
+
+                <div class="reference-section">
+                    <div class="title">
+                        References
+                    </div>
+                    <div class="content">
+                        <div class="name">Khairul Haq</div>
+                        <div>Founder, GroupyFy Inc.</div>
+                        <div>Email: <a href="mailto:khaq@groupyfy.com">khaq@groupyfy.com</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-part">
+                <div class="experience-section">
+                    <div class="title">
+                        Experience
+                    </div>
+                    <div class="item">
+                        <div class="designation">Backend Software Engineer</div>
+                        <div class="sub-title"><span class="company">GroupyFy Inc.</span> | November 2023 - Present
+                        </div>
+                        <div class="company-details">A marketplace where customers purchase products and join campaigns
+                            for special discounts.</div>
+                        <div class="responsibilities">
+                            <div class="responsibilities-title">Responsibilities</div>
+                            <ul>
+                                <li>Developed and maintained RESTful APIs with Django.</li>
+                                <li>Designed database schemas and managed cached data.</li>
+                                <li>Migrated frontend from React to Next.js.</li>
+                                <li>Collaborated with frontend dev to ensure seamless functionality.</li>
+                                <li>Managed asynchronous tasks and created cron jobs.</li>
+                                <li>Integrated payment systems (Stripe).</li>
+                                <li>Set up different development environments.</li>
+                                <li>Deployed the application on AWS.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="designation">Software Engineer</div>
+                        <div class="sub-title"><span class="company">Hubar Tech Limited</span> | February 2023 - May
+                            2023</div>
+                        <div class="company-details">Hubar Tech is a software development company where I worked as a
+                            backend developer. It is a sister company of UK based Exos Systems Ltd.</div>
+                        <div class="responsibilities">
+                            <div class="responsibilities-title">Responsibilities</div>
+                            <ul>
+                                <li>Created RESTful APIs and Swagger API documentation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="designation">Jr. Software Engineer</div>
+                        <div class="sub-title"><span class="company">SELISE Digital Platforms</span> | April 2020 -
+                            December 2022</div>
+                        <div class="company-details">SELISE is an enterprise cloud application and a fast growing
+                            digital platform providing secure and scalable solutions.</div>
+                        <div class="responsibilities">
+                            <div class="responsibilities-title">Responsibilities</div>
+                            <ul>
+                                <li>Developed Enterprise frontend web apps with Angular.</li>
+                                <li>Created shared UI modules for flexibility and reusability</li>
+                                <li>Trained and gave necessary guidelines to junior teammates.</li>
+                                <li>Migrated full project from Python2 to Python3.</li>
+                                <li>Developed and maintailed RESTful APIs with Django.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="designation">Intern</div>
+                        <div class="sub-title"><span class="company">Samsung R&D Institute Bangladesh</span> | August
+                            2018 - January 2019</div>
+                        <div class="company-details">SRBD is the research and development (R&D) hub of Samsung in
+                            Bangladesh which continuously conducting R&D to identify new advanced technologies to
+                            improve people's lives.</div>
+                        <div class="responsibilities">
+                            <div class="responsibilities-title">Responsibilities</div>
+                            <ul>
+                                <li>Built basic Tizen applications.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
