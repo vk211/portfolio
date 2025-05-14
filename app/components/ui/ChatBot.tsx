@@ -21,7 +21,7 @@ export default function ChatWidget() {
         <div className="fixed bottom-20 right-6 w-[350px] max-h-[500px] bg-white border border-gray-300 rounded-xl shadow-lg flex flex-col z-50">
           {/* Header */}
           <div className="bg-slate-800 text-white p-3 rounded-t-xl flex justify-between items-center">
-            <span className="font-semibold">What to Know more about Vijay ? </span>
+            <span className="font-semibold"> Any Questions ? </span>
             <button onClick={() => setOpen(false)} className="text-lg">✖️</button>
           </div>
 
