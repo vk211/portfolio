@@ -17,9 +17,9 @@ export const hero: HeroInfo = {
 }
 
 export const aboutMe: AboutMeInfo = {
-    myself: "I'm Vijay Goud Kodipyaka, backend focused Java full-stack software engineer 🖥️ .",
-    passion: "🌥️ Enthusiastic about writing clean code, building cloud-native solutions, ⚙️ diving into low-level systems, 🤖 automating everything possible",
-    hobby: "Apart from coding, and hobbyist photographer 📸",
+    myself: "I'm a Java Full Stack Developer with over 3 years of experience building scalable, high-performance web applications. My core strength lies in crafting end-to-end solutions using technologies like Java 11, Spring Boot, React.js, Redux, and Microservices architecture. I have a proven track record of optimizing performance, reducing load times, and delivering business-aligned features within Agile teams.",
+    passion: "I’m passionate about building clean, efficient, and maintainable code that solves real-world problems. I thrive on creating intuitive user interfaces and architecting robust backend systems. Deploying microservices on AWS, setting up CI/CD pipelines with Jenkins, integrating MongoDB and Elasticsearch for lightning-fast data access—these are the kinds of challenges I love.",
+    passionApart: "Beyond development, I enjoy staying current with the latest in cloud computing, backend optimization strategies, and frontend frameworks. I actively participate in code reviews and internal hackathons, where I've been recognized for creating innovative and production-ready UI solutions. I'm also a firm believer in continuous learning and knowledge sharing.",
 }
 
 export const profile: Profile = {
@@ -109,52 +109,44 @@ export const skill: SkillCategory = {
 
 export const experiences: Experience[] = [
     {
-        company: "Divami Design Labs Pvt Ltd",
-        role: "Software Engineer",
-        period: "Dec 2022 - Aug 2023",
+        company: "Assurant - United States",
+        role: "Java Full Stack Developer",
+        period: "Sep 2024 - Present",
         responsibilities: [
-            "Developed and maintained RESTful APIs with Django",
-            "Designed database schemas and managed cached data",
-            "Managed asynchronous tasks and cron jobs",
-            "Integrated payment systems (Stripe)",
-            "Migrated frontend from React to Nextjs",
-            "Collaborated with frontend dev to ensure seamless functionality",
-            "Set up development environments",
-            "Deployed the application on AWS"
-        ]
+            "Collaborated with cross-functional teams using Agile methodology such as Scrum to deliver features on time, ensuring alignment with business goals and user needs.",
+            "Revamped client-facing portals with React.js, Redux, and Material-UI, leveraging lazy loading and memoization to streamline rendering and cut load times by 30%.",
+            "Engineered Middleware REST applications, APIs and Microservices using Maven, Spring framework with IntelliJ IDE reducing APIs response time by 20%.",
+            "Optimized recommendation engines by 40% through MongoDB queries and seamless Elasticsearch integration for high-efficiency data retrieval.",
+            "Deployed microservices on AWS using Lambda, Step Functions, S3, ECS, and DynamoDB, achieving 30% cost savings through event-driven, auto-scaling architecture.",
+            "Conducted functional validations using Postman for 50 APIs, and automated test JUnits for each implementation, resulting in a 90% improvement in bug detection."
+          ]
     },
     {
-        company: "Freelance Project",
+        company: "Divami Design Labs - India",
         role: "Software Engineer",
-        period: "Dec 2023 - May 2024",
-        responsibilities: [
-            "Designed and developed an advanced product search system integrating full-text indexing, category filtering, and relevance ranking.",
-            "Integrated ChatGPT-based embeddings for semantic understanding of user queries and product refining.",
-            "Developed Dockerized services to generate and manage product embeddings efficiently.",
-            "Built a dynamic recommendation engine for products based on user behavior and category segmentation.",
-            "Created and secured RESTful APIs in Java for managing product catalog, orders, and customer profiles.",
-            "Implemented comprehensive product admin functionalities including CRUD operations, bulk uploads, and real-time previews.",
-            "Developed a responsive admin dashboard with role-based access control (RBAC) for administrators, managers, and editors.",
-            "Built a mobile-first user interface in React supporting authentication, product browsing, wishlists, and order tracking.",
-            "Implemented managerial modules for order tracking, refund handling, discount management, and customer support tools.",
-            "Designed sales analytics and operational reports for business decision support.",
-            "Containerized and deployed embedding generation services using Docker for scalable cloud-native deployment."
-        ]
+        period: "Dec 2022 - Aug 2023",
+        responsibilities:  [
+            "Worked in Agile teams, contributing to code reviews and quality initiatives while aligning with senior developers on scalable design standards and implementing best practices.",
+            "Administered code repositories for 3 microservices using Bitbucket and GIT for version control, reducing conflicts. Deployed microservices using OpenShift and JBoss.",
+            "Analyzed and updated portal user interface (UI) utilizing micro front-end architecture with HTML, CSS, JavaScript and React, achieved in onboarding 60 new customers and partners with enhanced user interaction.",
+            "Conceptualized Java 11 and Spring MVC to streamline web services. Developed real-time data management by leveraging Hibernate, MySQL, and NoSQL such as MongoDB.",
+            "Set up Jenkins CI/CD pipelines for 3 projects, cutting deployment time by 25%, and built serverless microservices using AWS ECS, Lambda, S3, and CloudWatch.",
+            "Addressed and prepared JUnit and Mockito to achieve Test-Driven Development (TDD) and coverage of 95% in SonarQube, reducing production bugs by 15%."
+          ]
         
     },
     {
-        company: "Free Lance Project Car Store",
-        role: " Software Engineer",
-        period: "Sep 2024 - Dec 2024",
+        company: "Gigabyte Infocomm - India ",
+        role: "Java Full Stack Developer ",
+        period: "May 2021 - Nov 2022",
         responsibilities: [
-            "Developed a dynamic car recommendation website with a modern, responsive UI for enhanced user engagement.",
-            "Integrated a chatbot interface capable of understanding user requirements (e.g., budget, brand preferences) and delivering personalized car suggestions.",
-            "Built a recommendation system powered by OpenAI's text embeddings to semantically match user input with the best available car options.",
-            "Fed the chatbot with a curated car dataset containing models, pricing, discounts, and manufacturer offers.",
-            "Engineered a backend service to process user queries, apply budget constraints, and retrieve the most suitable car recommendations in real-time.",
-            "Implemented discount visibility based on manufacturer and dealer offers to enhance customer decision-making.",
-            "Designed and deployed the backend using a scalable architecture for efficient data retrieval and embedding management."
-        ]
+            "Transformed user stories into industry-standard code, resulting in the successful implementation of backend APIs and database schema improvements.",
+            "Created new user-facing features using React.JS, which resulted in a 40% increase in user engagement and website traffic.",
+            "Revamped the multithreading and collection frameworks, including List and Map data structures, resulting in a 15% decrease in processing time.",
+            "Implemented AJAX calls for asynchronous data retrieval, boosting performance by 30%.",
+            "Established JUnit test cases for unit testing and test suites for end-to-end testing, achieving a 95% accuracy rate in code testing and significantly reducing debugging time.",
+            "Resolved 95% of the issues raised by business and tracked using Jira while improving the exception handling scenarios to cover 90% of the issues."
+          ]
         
     },
     

@@ -14,7 +14,7 @@ export interface HeroInfo {
 export interface AboutMeInfo {
     myself: string;
     passion: string;
-    hobby: string;
+    passionApart: string;
 };
 
 // Social Profile Links
