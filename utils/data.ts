@@ -1,4 +1,4 @@
-import { AboutMeInfo, Experience, HeroInfo, NavItem, Profile, SkillCategory, Welcome } from "./types";
+import { AboutMeInfo, Experience, HeroInfo, NavItem, Profile, SkillCategory, Welcome ,Project, Education} from "./types";
 
 const isDev = process.env.NODE_ENV === 'development';
 const imgPath = (folder: string, file: string) => `${isDev ? `/${folder}/` : `${folder}/`}${file}`;
@@ -8,8 +8,11 @@ export const navItems: NavItem[] = [
     { id: "about", label: "About", icon: "🙋‍♂️" },
     { id: "skills", label: "Skills", icon: "🧩" },
     { id: "experiences", label: "Experiences", icon: "💡" },
+    { id: "projects", label: "Projects", icon: "🛠️" },
+    { id: "education", label: "Education", icon: "🎓" },
     { id: "contact-me", label: "Contact", icon: "☎️" },
-];
+  ];
+  
 
 export const hero: HeroInfo = {
     title: "Hi, I’m Vijay Goud Kodipyaka",
@@ -33,7 +36,7 @@ export const profile: Profile = {
         logoUrl: imgPath("social", "linkedin.png")
     },
     gmail: {
-        url: "vijaykodipyaka0809@gmail.com",
+        url: "vijaykodipyaka211@gmail.com",
         logoUrl: imgPath("social", "gmail.png")
     },
     whatsapp: {
@@ -105,7 +108,45 @@ export const skill: SkillCategory = {
         ]
     }
 };
+export const projects: Project[]= [
+    {
+      title: "AI Car Recommendation Bot",
+      description:
+        "A chatbot that suggests cars based on budget and requirements using OpenAI and text embeddings.",
+      techStack: ["Java", "Spring Boot", "OpenAI", "React", "Docker"],
+      github: "https://github.com/yourusername/car-bot",
+      demo: "https://carbot-demo.vercel.app",
+    },
+    {
+      title: "Retail Store Search",
+      description:
+        "Implemented ElasticSearch-powered search and admin product dashboard.",
+      techStack: ["React", "Elasticsearch", "Java", "Spring Boot"],
+      github: "https://github.com/yourusername/retail-store",
+    },
+  
+  ];
 
+export const educationData: Education[] = [
+    {
+      degree: "Master of Science in Computer Science",
+      institution: "Illinois Institute of Technology",
+      duration: "2023 – 2025",
+      grade: "GPA: 3.1/4.00",
+      highlights: [
+        "Coursework: Big Data, Cloud Computing, Algorithms,Enterprise Web Applications",
+        // "Research on scalable microservices architecture",
+      ],
+    },
+    {
+      degree: "Bachelor of Technology in Electronics & Communication Engineering",
+      institution: "Sreenidhi Institute of Science and Technology, Hyderabad",
+      duration: "2019 – 2023",
+      grade: "GPA: 8.06/10.00",
+      highlights: [ "Coursework: Computer Architecture, Data Structures, Computer Networks ,Programming",],
+    },
+  ];
+  
 
 export const experiences: Experience[] = [
     {

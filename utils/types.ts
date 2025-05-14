@@ -67,3 +67,19 @@ export interface Experience {
 export interface Welcome {
     text: string;
 }
+
+export interface  Project  {
+    title: string;
+    description: string;
+    techStack: string[];
+    github?: string;
+    demo?: string;
+  };
+
+export interface Education{
+    degree: string;
+  institution: string;
+  duration: string;
+  grade?: string;
+  highlights?: string[];
+}

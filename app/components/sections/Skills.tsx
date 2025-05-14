@@ -45,6 +45,10 @@ function SkillCard({ skill }: { skill: SkillInfo }) {
         className="w-full bg-gradient-to-b from-green-50 to-yellow-50 py-12 px-4"
       >
         <div className="max-w-7xl mx-auto">
+        <h1 className="text-4xl font-bold text-center text-gray-700 mb-10">
+  SKILLS
+</h1>
+
           <div className="flex flex-wrap justify-center gap-6">
             <SkillCard key={skill.language.label} skill={skill.language} />
             <SkillCard key={skill.backend.label} skill={skill.backend} />
