@@ -1,11 +1,4 @@
-// import ChatBot from "../ui/ChatBot";
-
-import ChatBot from "../components/ui/ChatBot";
-
-export default function ChatPage() {
-  return (
-    <main className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <ChatBot />
-    </main>
-  );
+// app/api/about/route.ts
+export async function GET() {
+  return new Response("Not implemented yet", { status: 501 });
 }

@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ChatWidget from "./components/ui/ChatBot";
+
 
 export const metadata: Metadata = {
   title: "Vk",
@@ -16,10 +18,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/programmer.png" sizes="any" />
       </head>
-      <body
-        className=""
-      >
+      <body className="">
         {children}
+        <ChatWidget /> {/* ✅ Floating chat button will now work across all pages */}
       </body>
     </html>
   );

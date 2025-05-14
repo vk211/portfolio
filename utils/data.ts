@@ -194,5 +194,5 @@ export const experiences: Experience[] = [
 ];
 
 export const welcome: Welcome = {
-    text: "I love to chat 🗨️ rather than talk. If you ping me with a 'hi', I'll be happy to chat with you more! 😊"
+    text: "Got a project or collaboration in mind? Feel free to reach out — I’m always open to new opportunities and ideas."
 }
