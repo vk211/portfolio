@@ -114,7 +114,7 @@ export const projects: Project[]= [
       description:
         "A chatbot that suggests cars based on budget and requirements using OpenAI and text embeddings.",
       techStack: ["Java", "Spring Boot", "OpenAI", "React", "Docker"],
-      github: "https://github.com/yourusername/car-bot",
+      github: "https://github.com/vk211/smart-store",
       demo: "https://carbot-demo.vercel.app",
     },
     {
@@ -122,7 +122,7 @@ export const projects: Project[]= [
       description:
         "Implemented ElasticSearch-powered search and admin product dashboard.",
       techStack: ["React", "Elasticsearch", "Java", "Spring Boot"],
-      github: "https://github.com/yourusername/retail-store",
+      github: "https://github.com/vk211/Retail_store",
     },
   
   ];
