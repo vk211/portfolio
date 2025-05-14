@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function ChatWidget() {
   const [open, setOpen] = useState(false);
-  const [input, setInput] = useState("");
+  // const [input, setInput] = useState("");
 
   return (
     <>
