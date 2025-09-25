@@ -36,11 +36,11 @@ export const profile: Profile = {
         logoUrl: imgPath("social", "linkedin.png")
     },
     gmail: {
-        url: "vijaykodipyaka211@gmail.com",
+        url: "kodipyakavijay@gmail.com",
         logoUrl: imgPath("social", "gmail.png")
     },
     whatsapp: {
-        number: "+1312989898",
+        number: "+13125236578",
         logoUrl: imgPath("social", "whatsapp.png")
     }
 };
@@ -150,9 +150,9 @@ export const educationData: Education[] = [
 
 export const experiences: Experience[] = [
     {
-        company: "Assurant - United States",
-        role: "Java Full Stack Developer",
-        period: "Sep 2024 - Present",
+        company: "Coupa Software - United States",
+        role: "Full Stack Developer",
+        period: "May 2024 - Present",
         responsibilities: [
             "Collaborated with cross-functional teams using Agile methodology such as Scrum to deliver features on time, ensuring alignment with business goals and user needs.",
             "Revamped client-facing portals with React.js, Redux, and Material-UI, leveraging lazy loading and memoization to streamline rendering and cut load times by 30%.",
@@ -164,8 +164,8 @@ export const experiences: Experience[] = [
     },
     {
         company: "Divami Design Labs - India",
-        role: "Software Engineer",
-        period: "Dec 2022 - Aug 2023",
+        role: "Full Stack Developer",
+        period: "Mar 2022 - Jul 2023",
         responsibilities:  [
             "Worked in Agile teams, contributing to code reviews and quality initiatives while aligning with senior developers on scalable design standards and implementing best practices.",
             "Administered code repositories for 3 microservices using Bitbucket and GIT for version control, reducing conflicts. Deployed microservices using OpenShift and JBoss.",
@@ -177,8 +177,8 @@ export const experiences: Experience[] = [
         
     },
     {
-        company: "Gigabyte Infocomm - India ",
-        role: "Java Full Stack Developer ",
+        company: "Zaggle - India ",
+        role: "Full Stack Developer ",
         period: "May 2021 - Nov 2022",
         responsibilities: [
             "Transformed user stories into industry-standard code, resulting in the successful implementation of backend APIs and database schema improvements.",
