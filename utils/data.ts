@@ -417,16 +417,16 @@ export const experiences: Experience[] = [
   },
 ];
 
-// FIX: Added AWS Certification section
-export const certifications = [
-  {
-    title: "AWS Certified Solutions Architect – Associate",
-    issuer: "Amazon Web Services",
-    issued: "2025",
-    credentialUrl:
-      "https://www.credly.com/badges/f3824ca9-812c-44a4-bfb4-d2fe672387ae/public_url",
-  },
-];
+// // FIX: Added AWS Certification section
+// export const certifications = [
+//   {
+//     title: "AWS Certified Solutions Architect – Associate",
+//     issuer: "Amazon Web Services",
+//     issued: "2025",
+//     credentialUrl:
+//       "https://www.credly.com/badges/f3824ca9-812c-44a4-bfb4-d2fe672387ae/public_url",
+//   },
+// ];
 
 export const welcome: Welcome = {
   text: "Got a project or collaboration in mind? Feel free to reach out — I'm always open to new opportunities and ideas.",
