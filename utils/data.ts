@@ -176,7 +176,7 @@ export const experiences: Experience[] = [
   {
     // FIX: Dates aligned with resume (May 2021 – Jul 2023), Zaggle removed to avoid overlap
     company: "Divami Design Labs – India",
-    role: "Java Full Stack Developer",
+    role: "Software Engineer",
     period: "May 2021 – Jul 2023",
     responsibilities: [
       "Worked in Agile teams contributing to code reviews and quality initiatives aligned with scalable design standards.",
